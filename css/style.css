@@ -1,0 +1,176 @@
+body {
+    background-color: rgb(32, 32, 32);
+    background-repeat: round;
+}
+
+img{
+    display: flow-root;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+}
+h1 {
+    font-size: 50px;
+    color: rgb(206, 206, 206);
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 5px 5px 5px black;
+    margin-bottom: 1%;
+    /* text-decoration: underline; */
+}
+h2{
+    font-size: 20px;
+    color: rgb(230, 200, 84);
+    margin: 1% 0% 1% 0%;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+h3 {
+    font-size: 15px;
+    color: rgb(230, 200, 84);
+    margin: 2% 0% 3% 0%;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    width: 35%;
+    margin: auto;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.calculate {
+    box-shadow: 12px 12px 12px rgba(0,0,0,0.8);
+    padding: 20px;
+    border: 1px gray;
+    border-radius: 10px;
+    background-color: rgb(238, 209, 93);
+}
+
+.form {
+    width: 600px;
+    height: 500px;
+}
+#berat {
+    outline: none;
+    margin: auto;
+    display: flow-root;
+    width: 90%;
+    height: 30px;
+    font-size: 20px;
+    background-color: transparent;
+    border: transparent;
+    
+}
+#tinggi {
+    outline: none;
+    margin: auto;
+    display: flow-root;
+    width: 90%;
+    height: 30px;
+    font-size: 20px;
+    background-color: transparent;
+    border: transparent;
+}
+
+#submit {
+    cursor: pointer;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    margin : auto;
+    display: flow-root;
+    width: 35%;
+    background-color:transparent;
+    border-radius: 10px;
+    border-color: black;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+    margin-bottom: 13px;
+}
+
+#submit:hover{
+    background-color: rgb(219, 179, 19);
+}
+
+#submit:active{
+    background-color:  rgb(219, 179, 19);
+    transform: translateY(3px);
+}
+
+.calculate-text{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 12% 0% 2% 5%;
+    font-size: 19px;
+    text-decoration: underline;
+}
+
+.result {
+    width: 35%;
+    height: 400px;
+    margin: 3% auto;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#hasil{
+    display: flow-root;
+    background-color: transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    width: 100%;
+    /* height: 20%; */
+    margin: 5% auto;
+}
+
+/* #proses{
+    width: 50%;
+    display: flow-root;
+    margin: auto;
+} */
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.719); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: rgb(56, 163, 79);
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 50px;
+    width: 33%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }

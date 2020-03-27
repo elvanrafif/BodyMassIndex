@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berat Ideal Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>Body Mass Index Calculator</h1>
+    <img src="/img/logo.png" alt="logo">
+    <h2>Apakah berat badan anda Ideal? Yuk di cek</h2>
+    
+
+
+    <div class="container">
+        <form action="" method="GET" class="calculate" id="calculate">
+            <label class="calculate-text">Tinggi Badan (cm)</label><br>
+            <input id="tinggi" type="number" equired>
+            <br>
+            <label class="calculate-text">Berat Badan (kg)</label><br>
+            <input id="berat" type="number" required>
+            <br>
+            <input id="submit" type="button" value=" Calculate " >
+        </form>
+    </div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+                <p id="hasil"></p>
+        </div>
+    </div>
+
+    <h3>Body Mass Index (BMI) atau Indeks Massa Tubuh (IMT) adalah <br />angka yang menjadi penilaian standar untuk menentukan apakah <br />berat badan Anda tergolong normal, kurang, berlebih, atau obesitas.</h3>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
